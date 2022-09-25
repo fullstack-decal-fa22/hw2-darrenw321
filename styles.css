@@ -19,8 +19,12 @@ h2 {
 
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
-.label:hover {
+.label {
   color: blue;
+}
+
+.label:hover {
+  color: purple;
   font-size: 110%;
 }
 
@@ -194,8 +198,5 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-bottom: 30px;
-  padding-right: 30px;
+  padding: 30px;
 }
